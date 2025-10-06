@@ -3,37 +3,34 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Microservices E-Commerce Platform",
-      description: "Designed and implemented a scalable microservices architecture handling 10K+ requests/second with Redis caching, message queues, and distributed transactions.",
-      technologies: ["Node.js", "PostgreSQL", "Redis", "Docker", "Kubernetes"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      title: "BUK CashTrack",
+      description: "Progressive Web Application (PWA) built with Django for tracking and managing financial transactions. Final year project for FCSIT Bayero University Kano featuring offline support and real-time sync.",
+      technologies: ["Python", "Django", "PWA", "PostgreSQL", "JavaScript"],
+      githubUrl: "https://github.com/mustaphagarba/buk-cashtrack",
     },
     {
-      title: "Real-Time Analytics API",
-      description: "Built a high-performance REST API for processing and aggregating real-time analytics data from multiple sources with sub-100ms response times.",
-      technologies: ["Python", "FastAPI", "MongoDB", "Apache Kafka", "AWS"],
-      githubUrl: "https://github.com",
+      title: "Revoted Project",
+      description: "A secure and efficient electronic voting system built with PHP, featuring voter authentication, real-time vote counting, and administrative dashboard for election management.",
+      technologies: ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
+      githubUrl: "https://github.com/mustaphagarba/revoted-project",
     },
     {
-      title: "Authentication & Authorization Service",
-      description: "Developed a robust OAuth 2.0 authentication service with JWT tokens, role-based access control, and integration with third-party identity providers.",
-      technologies: ["Go", "PostgreSQL", "Redis", "Docker"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      title: "FMD Experiments",
+      description: "Experimental backend development project exploring various architectural patterns, API designs, and database optimization techniques for high-performance applications.",
+      technologies: ["Node.js", "Express", "MongoDB", "Redis"],
+      githubUrl: "https://github.com/mustaphagarba/FMD-experiments",
     },
     {
-      title: "Distributed Task Queue System",
-      description: "Created a fault-tolerant distributed task queue system for processing background jobs with retry logic, priority scheduling, and monitoring dashboard.",
-      technologies: ["Python", "Celery", "RabbitMQ", "Redis", "Grafana"],
-      githubUrl: "https://github.com",
+      title: "WeCodeApp Mobile",
+      description: "React Native application developed during WecodeNG meetup in Abuja. Cross-platform mobile app demonstrating modern mobile development practices and state management.",
+      technologies: ["React Native", "JavaScript", "Mobile Development"],
+      githubUrl: "https://github.com/mustaphagarba/wecodeapp",
     },
     {
-      title: "GraphQL Gateway Service",
-      description: "Architected a unified GraphQL gateway aggregating data from multiple REST APIs and databases, reducing client-side complexity and network requests.",
-      technologies: ["Node.js", "GraphQL", "Apollo", "PostgreSQL", "Redis"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      title: "Reveal.js Presentations",
+      description: "Customized HTML presentation framework for creating elegant, responsive slide decks. Enhanced with custom themes and interactive features for technical presentations.",
+      technologies: ["JavaScript", "HTML/CSS", "Reveal.js"],
+      githubUrl: "https://github.com/mustaphagarba/reveal.js",
     }
   ];
 

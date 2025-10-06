@@ -14,12 +14,14 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="gap-2">
-              <Mail className="h-5 w-5" />
-              Get In Touch
+            <Button size="lg" className="gap-2" asChild>
+              <a href="mailto:mustaphagarba@example.com">
+                <Mail className="h-5 w-5" />
+                Get In Touch
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="gap-2" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/mustaphagarba" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 View GitHub
               </a>

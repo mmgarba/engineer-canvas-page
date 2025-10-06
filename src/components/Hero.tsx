@@ -25,10 +25,10 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 py-20">
           <div className="space-y-4 animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Backend Engineer
+              Mustapha Garba
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Building scalable systems and robust APIs that power modern applications
+              Backend Engineer building scalable systems and robust APIs that power modern applications
             </p>
           </div>
 
@@ -45,7 +45,7 @@ const Hero = () => {
 
           <div className="flex gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <a 
-              href="https://github.com" 
+              href="https://github.com/mustaphagarba" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
@@ -61,7 +61,7 @@ const Hero = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:mustaphagarba@example.com"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
             >
               <Mail className="h-5 w-5" />
